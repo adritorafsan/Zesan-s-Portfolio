@@ -11,9 +11,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 288.5px;
-    margin-right: 288.5px;
+    padding-left: 288.5px;
+    position: fixed;
     margin-top: 39.78px;
+    width: 100%;
+    padding-right: 288.5px;
 }
 
 .logo {
