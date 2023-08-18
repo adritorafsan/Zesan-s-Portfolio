@@ -128,10 +128,10 @@ nav ul li a:hover::before {
 
 .work .work-text {
     padding-top: 199.78px;
-    padding-left: 312.51px; 
-     padding-right: 312.51px;
-   
-  
+    padding-left: 312.51px;
+    padding-right: 312.51px;
+
+
 
 
 }
@@ -159,65 +159,169 @@ nav ul li a:hover::before {
     margin-left: 20%;
     margin-top: 12px;
 }
-.btn1{
+
+.btn1 {
     margin-left: 40%;
     margin-top: 24px;
 }
-.work-option{
+
+.work-option {
     padding-left: 289px;
     padding-top: 122px;
     display: flex;
     gap: 16px;
 }
-.work-option p{
+
+.work-option p {
     color: var(--neutrals-900, #171717);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 120% */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
 }
-.work-option select{
+
+.work-option select {
     display: flex;
-padding: 4px 2px;
-justify-content: center;
-align-items: center;
-width: 44px;
-border-radius: 30px;
+    padding: 4px 2px;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    border-radius: 30px;
 }
-.work-option select option{
+
+.work-option select option {
     color: var(--ideateui-default-black-100, #23262F);
 
-/* Ideate/Button S - 16 */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 125% */
+    /* Ideate/Button S - 16 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
 }
-.work-img{
+
+.work-img {
     margin-top: 22px;
     display: flex;
     gap: 32px;
     padding-left: 32px;
 }
-.work-img .img img{
+
+.work-img .img img {
     /* width: 520px; */
-/* height: 390.127px; */
-flex-shrink: 0;
+    /* height: 390.127px; */
+    flex-shrink: 0;
 }
-.services{
+
+.services {
     padding-left: 288.5px;
+    padding-right: 288.5px;
     padding-top: 104px;
 }
-.services h3{
+
+.services h3 {
     color: var(--neutrals-900, #171717);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 120% */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    padding-left: 160px;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
 }
-.services-con{
+
+.services-con {
     margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding-left: 160px;
+
+    padding-right: 160px;
+}
+
+.services-con .services-box {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border-radius: 12px;
+
+    cursor: pointer;
+    border: 1px solid var(--neutrals-200, #E5E5E5);
+}
+
+.services-con .services-box:hover {
+    transform: scale(1.016);
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, .2);
+    transition: all .6s;
+}
+
+
+.services-con .services-box .services-svg {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-con .services-box .services-svg h2 {
+    color: var(--neutrals-900, #171717);
+
+    /* Ideate/Button S B - 16 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+}
+
+.services-con .services-box P {
+    color: var(--neutrals-900, #171717);
+
+    /* Ideate/Button S - 16 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+}
+
+.pricing {
+    margin-top: 120px;
+    margin-left: 289px;
+    margin-right: 289px;
+    padding-right: 160px;
+    padding-left: 160px;
+}
+
+.pricing-con {
+    padding-right: 130px;
+    margin-top: 24px;
+}
+
+.pricing-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.pricing-main {
+    display: flex;
+    width: 326px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 12px;
+    border: 1px solid var(--neutrals-200, #E5E5E5);
+    background: var(--neutrals-50, #FAFAFA);
 }
