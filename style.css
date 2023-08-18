@@ -201,3 +201,23 @@ line-height: 20px; /* 125% */
     gap: 32px;
     padding-left: 32px;
 }
+.work-img .img img{
+    /* width: 520px; */
+/* height: 390.127px; */
+flex-shrink: 0;
+}
+.services{
+    padding-left: 288.5px;
+    padding-top: 104px;
+}
+.services h3{
+    color: var(--neutrals-900, #171717);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+}
+.services-con{
+    margin-top: 24px;
+}
