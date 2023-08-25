@@ -302,6 +302,16 @@ nav ul li a:hover::before {
     padding-left: 160px;
 }
 
+.pricing h3 {
+    color: var(--neutrals-900, #171717);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+}
+
 .pricing-con {
     padding-right: 130px;
     margin-top: 24px;
@@ -324,4 +334,71 @@ nav ul li a:hover::before {
     border-radius: 12px;
     border: 1px solid var(--neutrals-200, #E5E5E5);
     background: var(--neutrals-50, #FAFAFA);
+    cursor: pointer;
+}
+
+.pricing-main:hover {
+    transform: scale(1.016);
+    transition: all .7s;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, .2);
+}
+
+
+.pricing-btn {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background: var(--neutrals-900, #171717);
+}
+.pricing-icon{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.pricing-text{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.pricing-text p{
+    color: var(--neutrals-600, #525252);
+
+/* Ideate/Button S - 16 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+}  
+.pricing-text h2 b{
+    color: var(--neutrals-900, #171717);
+
+/* Ideate/Button S B - 16 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 125% */
+}
+.pricing-text h2 span{
+    color: var(--neutrals-600, #525252);
+
+/* Ideate/Button S - 16 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+
+.how-it-work{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
