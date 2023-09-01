@@ -564,3 +564,49 @@ border: none;
 .blog-text button b{
     font-size: 16px;
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 41.22px;
+}
+
+
+.footer-text{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-logo{
+    display: flex;
+    gap: 8px;
+}
+.ideatelogo{
+   
+    width: 40px;
+height: 40px;
+
+
+}
+.footer-logo h3{
+    color: var(--neutrals-900, #171717);
+font-family: Inter;
+font-size: 33.333px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 120% */
+}
+.footer-p {
+    width: 540px;
+}
+
+.footer-p p{
+    color:  #404040;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+}
+.footer-p p b{
+font-size: 14px;
+}
