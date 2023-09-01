@@ -12,8 +12,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-left: 288.5px;
-    position: relative;
+    position: fixed;
     margin-top: 39.78px;
+
     width: 100%;
     padding-right: 288.5px;
 }
@@ -655,10 +656,11 @@ nav ul li a:hover::before {
     line-height: 18px;
 }
 
-.links {
+.links ,.sideproject {
     display: flex;
     gap: 8px;
-
+    justify-content:end;
+    align-items: center;
 }
 
 .links a {
@@ -668,4 +670,9 @@ nav ul li a:hover::before {
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
+}
+.links a:hover{
+    transform: scale(1.07);
+    transition: .5s;
+    color: black;
 }
