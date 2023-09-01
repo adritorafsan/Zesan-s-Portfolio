@@ -18,7 +18,7 @@ header {
     padding-right: 288.5px;
 }
 body{
-    background: #fffcfc;
+    background: var(--White, #FFF);
 }
 
 .logo {
@@ -298,7 +298,7 @@ nav ul li a:hover::before {
 }
 
 .pricing,
-.blog {
+.blog,.footer {
     margin-top: 120px;
     margin-left: 289px;
     margin-right: 289px;
@@ -510,15 +510,21 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 height: 400px;
-gap: 16px;
+gap: 8px;
 cursor: pointer;
 overflow: hidden;
 border-radius: 12px;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
 border: 1px solid var(--neutrals-200, #E5E5E5);
+}
+.blog .blog-con .blog-box:hover{
+    border: 2px  solid black;
+    transform: scale(1.01);
+    transition: all .5s;
 }
 .blog .blog-con .blog-box .blog-img{
     width: 444px;
-height: 232px;
+height: 362px;
 border-radius: 12px;
 margin-bottom: 26px;
 background: var(--neutrals-100, #F5F5F5);
@@ -533,7 +539,7 @@ background: var(--neutrals-100, #F5F5F5);
 
 /* Ideate/Button S B - 16 */
 font-family: Inter;
-font-size: 16px;
+font-size: 20px;
 
 font-weight: 600;
 line-height: 20px; /* 125% */
@@ -547,6 +553,7 @@ line-height: 20px; /* 125% */
 }
 .blog-text button{
     display: flex;
+    cursor: pointer;
 padding: 4px;
 justify-content:flex-start;
 align-items: center;
